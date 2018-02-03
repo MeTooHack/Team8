@@ -1,3 +1,19 @@
 <div class="container">
   <img src="./assets/clara-start.svg">
+  <span>Jag heter
+    <strong>Clara!</strong>
+    Jag är en chat-bot som finns här om du vill berätta om något som gör dig glad, ledsen, orolig, rädd - ja vad som helst.
+    <br/> Vill du komma i kontakt med en vuxen kan jag hälpa dig med det också. Jag är på din sida och vill göra din skola bättre!
+  </span>
+
+  <div class="conversation-panel">
+    <button mat-raised-button routerLink="/chat">Börja chatta med mig!</button>
+    <span class="conversation-panel__continue-text">Om du har en kod och vill fortsätta prata, ange den här</span>
+    <div class="conversation-panel__continue-panel">
+      <mat-form-field class="message-field">
+        <input matInput placeholder="Ange kod">
+      </mat-form-field>
+      <button mat-button>Fortsätt</button>
+    </div>
+  </div>
 </div>
