@@ -1,11 +1,13 @@
-<div class="chat-window__messages">
-  <tome-chat-message *ngFor="let message of messages" [chatMessage]="message">
+<div class="chat-window">
+  <div class="chat-window__messages">
+    <tome-chat-message *ngFor="let message of messages" [chatMessage]="message">
 
-  </tome-chat-message>
-</div>
-<div class="chat-window__bottom">
-  <mat-form-field class="message-field">
-    <textarea matInput placeholder="Skriv ett meddelande" (keydown.enter)="sendMessage()" [(ngModel)]="draftMessage.text"></textarea>
-  </mat-form-field>
-  <button mat-button (click)="sendMessage()">Skicka</button>
+    </tome-chat-message>
+  </div>
+  <div class="chat-window__bottom">
+    <mat-form-field class="message-field">
+      <textarea matInput placeholder="Skriv ett meddelande" (keydown.enter)="sendMessage()" [(ngModel)]="draftMessage.text"></textarea>
+    </mat-form-field>
+    <button mat-button (click)="sendMessage()">Skicka</button>
+  </div>
 </div>
