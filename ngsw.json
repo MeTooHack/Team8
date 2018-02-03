@@ -9,10 +9,10 @@
       "urls": [
         "/Team8/favicon.ico",
         "/Team8/index.html",
-        "/Team8/inline.08dc68ff72b00c71a3d1.bundle.js",
-        "/Team8/main.30861c1d4fd9a80adc53.bundle.js",
+        "/Team8/inline.44c78c8e8a1e26867441.bundle.js",
+        "/Team8/main.98e346c0287abeb0aab5.bundle.js",
         "/Team8/polyfills.f20484b2fa4642e0dca8.bundle.js",
-        "/Team8/styles.b00e149fc551406bec5e.bundle.css"
+        "/Team8/styles.377b9e13444104e077d2.bundle.css"
       ],
       "patterns": []
     },
@@ -30,14 +30,14 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/Team8/inline.08dc68ff72b00c71a3d1.bundle.js": "be690ba53a74d8a55797fb295794c017006211bc",
+    "/Team8/inline.44c78c8e8a1e26867441.bundle.js": "0c1ac45b03d664a003d41d29a98e8a2bcc7ed4cd",
     "/Team8/assets/clara-chat.svg": "43466c4432e2d35d491ec040deb3db2a3ab0deb1",
-    "/Team8/main.30861c1d4fd9a80adc53.bundle.js": "68e28dbcc06bfc64fbb32a31f6443cdb971627a2",
+    "/Team8/main.98e346c0287abeb0aab5.bundle.js": "605e9b8d5859af6d823798adce900079dd5f4c2c",
     "/Team8/assets/clara-start.svg": "99dfca20b1ba54cf05a3c99b8212479f083c8de5",
     "/Team8/polyfills.f20484b2fa4642e0dca8.bundle.js": "0b0af365e031b7cbba789493d311e94192720c68",
     "/Team8/assets/images/clara-head.svg": "7b9c4dc2058da86e94f026402193b181fac2d6ff",
-    "/Team8/styles.b00e149fc551406bec5e.bundle.css": "7431aefc0bff0cfb039d21b9157b7eef9781b279",
-    "/Team8/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/Team8/index.html": "c856e9ca08645edf33e5b0d23bf5a588236be0bb"
+    "/Team8/styles.377b9e13444104e077d2.bundle.css": "13a1b3afb4487a4b66a406ff0425c5041b2e33e0",
+    "/Team8/favicon.ico": "b28057bd04440f672316f6ec931126ad6a789301",
+    "/Team8/index.html": "c8b45c87942ee78326f175b1ca77444f09d888de"
   }
 }
