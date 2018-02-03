@@ -1,0 +1,36 @@
+{
+  "configVersion": 1,
+  "index": "/Team8/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/Team8/favicon.ico",
+        "/Team8/index.html",
+        "/Team8/inline.1237923fb362568d6d99.bundle.js",
+        "/Team8/main.6e6681da1848400ad921.bundle.js",
+        "/Team8/polyfills.f20484b2fa4642e0dca8.bundle.js",
+        "/Team8/styles.9c0ad738f18adc3d19ed.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Team8/inline.1237923fb362568d6d99.bundle.js": "444bfba874d19ce1163e007021ca33567a7299aa",
+    "/Team8/main.6e6681da1848400ad921.bundle.js": "fb36ed266ebb0fa75b522ed89a24fa9c2177ee98",
+    "/Team8/polyfills.f20484b2fa4642e0dca8.bundle.js": "0b0af365e031b7cbba789493d311e94192720c68",
+    "/Team8/styles.9c0ad738f18adc3d19ed.bundle.css": "e392ebe39e63c70b434f71bbe87278aa9aa641c0",
+    "/Team8/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/Team8/index.html": "39171c48a42be2295bafe677659653d92a84414c"
+  }
+}
