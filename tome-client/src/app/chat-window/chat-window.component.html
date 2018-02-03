@@ -1,3 +1,6 @@
+<input type="text" (keydown.enter)="sendMessage()" [(ngModel)]="draftMessage.text">
+<button (click)="sendMessage()">Skicka</button>
+
 <div class="chat-message" *ngFor="let message of messages">
   {{message.text}}
 </div>
