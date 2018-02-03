@@ -1,3 +1,4 @@
 <div class="chat-message" [ngClass]="{'chat-message--in' : chatMessage.direction==='in', 'chat-message--out' : chatMessage.direction==='out'}">
-  {{chatMessage.text}}
+  <img class="chat-message__image" src="./assets/clara-chat.svg" *ngIf="chatMessage.direction === 'in'">
+  <span class="chat-message__text">{{chatMessage.text}}</span>
 </div>

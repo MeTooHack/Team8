@@ -11,8 +11,8 @@ import { ChatWindowComponent } from './chat-window/chat-window.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatCheckboxModule, MatInputModule } from '@angular/material';
+import { FormsModule } from '@angular/forms';
 import { ChatMessageComponent } from './chat-message/chat-message.component';
-
 
 @NgModule({
 
@@ -27,7 +27,8 @@ import { ChatMessageComponent } from './chat-message/chat-message.component';
         AppRoutingModule,
         BrowserAnimationsModule,
         ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
-        MatButtonModule, MatCheckboxModule, MatInputModule
+        MatButtonModule, MatCheckboxModule, MatInputModule,
+        FormsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
