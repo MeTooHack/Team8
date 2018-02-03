@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostBinding } from '@angular/core';
 import { ChatMessage } from '../models/chat-message';
 
 @Component({
@@ -11,7 +11,8 @@ export class ChatWindowComponent implements OnInit {
     public messages: ChatMessage[];
     constructor() {
         this.messages = [
-            { text: 'Hello' } as ChatMessage
+            { text: 'Hej jag heter Clara, hur kan jag hjälpa dig?', direction: 'in' } as ChatMessage,
+            { text: 'Jag har en jättedålig dag', direction: 'out' } as ChatMessage
         ];
     }
 

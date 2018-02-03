@@ -10,7 +10,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ChatWindowComponent } from './chat-window/chat-window.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatCheckboxModule } from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatInputModule } from '@angular/material';
+import { ChatMessageComponent } from './chat-message/chat-message.component';
 
 
 @NgModule({
@@ -18,14 +19,15 @@ import { MatButtonModule, MatCheckboxModule } from '@angular/material';
     declarations: [
         AppComponent,
         LandingPageComponent,
-        ChatWindowComponent
+        ChatWindowComponent,
+        ChatMessageComponent
     ],
     imports: [
         BrowserModule,
         AppRoutingModule,
         BrowserAnimationsModule,
         ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
-        MatButtonModule, MatCheckboxModule
+        MatButtonModule, MatCheckboxModule, MatInputModule
     ],
     providers: [],
     bootstrap: [AppComponent]

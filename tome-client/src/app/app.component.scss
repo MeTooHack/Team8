@@ -1,0 +1,35 @@
+tome-root {}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.left-content,
+.right-content {
+  background: #3f3f3f;
+  flex-grow: 1;
+}
+
+.main-content {
+  max-width: 833px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content__top {
+  min-height: 40px;
+  display: block;
+}
+
+.main-content__center {
+  flex-grow: 1;
+  background-color: #ffffff;
+}
+
+.main-content__bottom {
+  min-height: 40px;
+  display: block;
+}

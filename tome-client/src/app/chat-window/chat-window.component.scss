@@ -1,0 +1,29 @@
+.chat-window {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-items: flex-end;
+}
+
+.chat-window__messages {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.chat-window__bottom {
+  padding: 10px;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.message-field {
+  width: 100%;
+}
+
+.chat-window__space {
+  flex-shrink: 1;
+}

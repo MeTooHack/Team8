@@ -1,2 +1,14 @@
 @import 'reset.scss';
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+  font-family: 'Roboto';
+  background: #3e3e3e;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
