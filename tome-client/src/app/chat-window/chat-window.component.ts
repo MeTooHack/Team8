@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ChatMessage } from '../models/chat-message';
 
 @Component({
     selector: 'tome-chat-window',
@@ -7,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChatWindowComponent implements OnInit {
 
-
-    constructor() { }
+    public messages: ChatMessage[];
+    constructor() {
+        this.messages = [
+            { text: 'Hello' } as ChatMessage
+        ];
+    }
 
     ngOnInit() {
     }
