@@ -9,10 +9,10 @@
       "urls": [
         "/Team8/favicon.ico",
         "/Team8/index.html",
-        "/Team8/inline.0cf1914b0d76ca4d0cb8.bundle.js",
-        "/Team8/main.cbd36c864d59b56ad9bc.bundle.js",
+        "/Team8/inline.1ae5fc93df30764bf17a.bundle.js",
+        "/Team8/main.0549439b9454b3a5e23f.bundle.js",
         "/Team8/polyfills.f20484b2fa4642e0dca8.bundle.js",
-        "/Team8/styles.154726071e7a80c37452.bundle.css"
+        "/Team8/styles.82c0bc335c1a82a95960.bundle.css"
       ],
       "patterns": []
     },
@@ -20,17 +20,24 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
-      "urls": [],
+      "urls": [
+        "/Team8/assets/clara-chat.svg",
+        "/Team8/assets/clara-start.svg",
+        "/Team8/assets/images/clara-head.svg"
+      ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/Team8/inline.0cf1914b0d76ca4d0cb8.bundle.js": "2a005c5252c68cbd768e0c659977bfac3494c48a",
-    "/Team8/main.cbd36c864d59b56ad9bc.bundle.js": "1e9b740b33533bddf31473d405243fe50666199b",
+    "/Team8/inline.1ae5fc93df30764bf17a.bundle.js": "ecd384a9ccd99efccb8dae2e2302ade055739aab",
+    "/Team8/assets/clara-chat.svg": "43466c4432e2d35d491ec040deb3db2a3ab0deb1",
+    "/Team8/main.0549439b9454b3a5e23f.bundle.js": "d5eb3fe0925802033ce0d303a8a1c9c39cf8134a",
+    "/Team8/assets/clara-start.svg": "99dfca20b1ba54cf05a3c99b8212479f083c8de5",
     "/Team8/polyfills.f20484b2fa4642e0dca8.bundle.js": "0b0af365e031b7cbba789493d311e94192720c68",
-    "/Team8/styles.154726071e7a80c37452.bundle.css": "9498847c41cf5e26bd90d106fe5f96bf9db491f2",
+    "/Team8/assets/images/clara-head.svg": "7b9c4dc2058da86e94f026402193b181fac2d6ff",
+    "/Team8/styles.82c0bc335c1a82a95960.bundle.css": "1141fb6c9d7015f446c84dcf0107437a7d30095e",
     "/Team8/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/Team8/index.html": "9908cfac3367183e0370c82348325e621bb935ad"
+    "/Team8/index.html": "bc50a4fbf2cd847d9be90028d674d919495b3099"
   }
 }
