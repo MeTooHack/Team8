@@ -1,6 +1,6 @@
 # Clara - a chat bot to improve the social climate
 
-![Clara landing page](landing-page.png)
+![Clara landing page](https://github.com/MeTooHack/Team8/blob/master/landing-page.PNG)
 
 ## Why Clara was born
 Bad behavoiurs and patterns start early. We believe that we as adults have an important task in speaking to our children about what words and acts can do to the people we interact with. Schools today differ a lot when it comes to how prepared they are to deal with these topics. Many times bad behaviours go unseen and many schools have a very different view of reality compared to what students encounter everyday.
@@ -14,7 +14,7 @@ If what happened appears very serious, or criminal, the chat could be diverted t
 
 Clara also offers a link for the child to save. With this link, the chat can be reopened at a later time, continuing where they left of.
 
-![Clara sample chat](sample-chat.png)
+![Clara sample chat](https://github.com/MeTooHack/Team8/blob/master/sample-chat.PNG)
 
 ## Step 2 - Get the picture
 School staff can sign in to an administrative application where the most common topics of chats appear. They can also see what topics are most common nation-wide. Any pending chats where children have requested the interaction of adults are also displayed with the possibility to start interaction.
