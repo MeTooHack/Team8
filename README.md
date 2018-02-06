@@ -20,8 +20,8 @@ School staff can sign in to an administrative application where the most common 
 
 Under each common topic, related material is added. This can be links to articles, experience from other schools or videos recorded by YouTubers known by the children. The purpose is to provide teachers and staff with a good foundation for a conversation with the children.
 
-![Admin dashboard](https://github.com/MeTooHack/Team8/blob/master/admin-dashboard.PNG)
-![References](https://github.com/MeTooHack/Team8/blob/master/references.PNG)
+![Admin dashboard](https://github.com/MeTooHack/Team8/blob/master/admin-dashboard.png)
+![References](https://github.com/MeTooHack/Team8/blob/master/references.png)
 
 ## Step 3 - Talk!
 The point of Clara is not to pursue individual bullies. The purpose is to get a real picture of what is going on and start a conversation. This happens face-to-face, in school, in class. This is where the real professionals step in and step up to the challenge. Clara and the related material empowers educators to do an even better job.
